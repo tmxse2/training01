@@ -5,6 +5,7 @@ pipeline {
        steps {
          bat 'mvn clean package'
        }
+     }
         
       stage ('deploy') {
        steps {
