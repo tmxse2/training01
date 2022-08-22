@@ -9,7 +9,7 @@ pipeline {
         
       stage('archive artifacts') {
         steps {
-          archiveArtifacts artifacts: 'ROOT.war'
+          archiveArtifacts artifacts: 'target'
         }
       }
    }
